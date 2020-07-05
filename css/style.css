@@ -204,8 +204,7 @@ dl, ol, ul {
     justify-content: center;
 }
 
-
-.feature__pic{
+.feature__pic {
     background-color: #3c8daf;
     border-radius: 50%;
     width: 130px;
@@ -230,7 +229,79 @@ dl, ol, ul {
     margin: 48px;
 }
 
+.feature .card-deck {
+    padding-bottom: 130px;
+}
+
 /*второе окно конец*/
+/*новости начало*/
+.news-one {
+    background-color: #222222;
+    display: flex;
+}
+
+.news-one__img, .news__left, .news-second__img {
+    width: 50%;
+}
+
+.news img {
+    height: 445px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.news-one__data-info {
+    display: flex;
+    margin-bottom: 17px;
+    font-size: 13px;
+}
+
+.news-one__content {
+    margin: 80px 100px 50px 113px;
+}
+
+.news-one__data {
+    border-right: 1px solid white;
+    padding-right: 13px;
+    margin-right: 13px;
+}
+
+.news-one__title {
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 43px;
+}
+
+.news-one, .news-second p {
+    font-size: 15px;
+}
+
+.news-one__fist {
+    margin-bottom: 35px;
+}
+
+.news-second {
+    display: flex;
+    background-color: #f3f3f3;
+    color: rgb(34, 34, 34);
+}
+
+.news-second__content {
+    margin: 80px 250px 50px 82px;
+}
+
+.news-second__data {
+    border-right: 1px solid rgb(34, 34, 34);
+    padding-right: 13px;
+    margin-right: 13px;
+}
+
+.news-second__img {
+    display: flex;
+    justify-content: flex-end;
+}
+/*новости конец*/
+/*влог начало*/
 .blog {
     position: relative;
 }
@@ -242,13 +313,16 @@ dl, ol, ul {
     margin-bottom: 75px;
     text-align: center;
 }
+
 .blog .letter {
     color: rgba(34, 34, 34, 0.18);
 }
-.blog  .title-common {
-color: black;
+
+.blog .title-common {
+    color: black;
     padding-bottom: 115px;
 }
+
 .blog .card-title {
     font-size: 18px;
     color: rgb(17, 116, 158);
@@ -266,3 +340,33 @@ color: black;
     color: rgb(34, 34, 34);
 }
 
+.blog .card-deck {
+    padding-bottom: 110px;
+}
+
+/*влог конец*/
+
+/*заметки начало*/
+.notes {
+    background-color: #11749e;
+    padding: 109px 0 150px 0;
+}
+
+.notes__item {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.notes img {
+    height: 73px;
+    width: auto;
+}
+
+.notes p {
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: left;
+    padding-left: 30px;
+}
+
+/*заметки конец*/
